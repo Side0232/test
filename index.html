@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;700&family=Quicksand:wght@300;400;500;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <script src="main.js" defer></script>
+</head>
+<body>
+
+    <div class="wrapper">
+
+        <header class="header">
+            <div class="header__container">
+                <a href="#" class="header__logo"></a>
+                <nav class="header__menu menu">
+                    <ul role="list" class="menu__list">
+                        <li class="menu__item">
+                            <a href="#" class="menu__link">Home</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#" class="menu__link">Blog</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#" class="menu__link">Features</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#" class="menu__link">Prices</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#" class="menu__link">Documentation</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="menu__icon">
+                    <span></span>
+                </div>
+                <button class="_button header__btn">Get started</button>
+            </div>
+        </header>
+
+        <main class="main">
+
+            <section class="main__first-block first-block">
+
+                <div class="first-block__container _container">
+                    <span class="first-block__upper-text _upper-text">PLAN YOUR LIFE</span>
+                    <h1 class="first-block__title">Increase your <span style="font-weight: 500;">productivity</span></h1>
+                    <p class="first-block__text">Brute laoreet efficiendi id his, ea illum nonumes luptatum pro. Usu atqui laudem an, insolens gubergren similique est cu. Et vel modus congue vituperata.</p>
+                    <button class="first-block__button">
+                        <div class="first-block__button-arrow">
+                            <img src="img/arrow.svg" alt="arrow">
+                        </div>
+                    </button>
+                    <button class="_button first-block__btn">Get started</button>
+                </div>
+                <!-- img отдельно чтобы в бекенде легче можно было вывести, cms -->
+
+                <!-- Отметить, что контент является размеро-задающем звеном, картинка фоновая, а контент задает размер блоку -->
+                
+                <div class="first-block__image">
+                    <img src="img/chart.jpg" alt="cover">
+                </div>
+
+            </section>
+
+            <section class="main__partners partners">
+                <div class="partners__container _container">
+                    <img src="img/bitbucket.svg" alt="">
+                    <img src="img/apple-watch.svg" alt="">
+                    <img src="img/facebook.svg" alt="">
+                    <img src="img/atlassian.svg" alt="">
+                    <img src="img/audi.svg" alt="">
+                </div>
+            </section>
+
+
+            <section class="main__plan-manage plan-manage">
+                <div class="_container main__plan-manage__container">
+                    <div class="plan-manage__container">
+                        <div class="plan-manage__upper-text _upper-text">DESKTOP AND MOBILE APP</div>
+                        <h1 class="plan-manage__title">Plan <span style="font-weight: 300;">and</span> manage</h1>
+                        <div class="plan-manage__image-mobile">
+                            <img src="img/illustration.png" alt="">
+                        </div>
+                        <div class="plan-manage__text">Brute laoreet efficiendi id his, ea illum nonumes luptatum pro. Usu atqui laudem an, insolens gubergren similique est cu. Et vel modus congue vituperata. Solum patrioque no sea. Mea ex malis mollis oporteat. Eum an expetenda consequat.</div>
+                        <div class="plan-manage__btns-container">
+                            <div class="plan-manage__btn plan-manage__btn-play btn-play">
+                                <div class="btn-play__text">View video</div>
+                                <img src='img/arrow_white.svg' class="btn-play__icon"></img>
+                            </div>
+                            <div class="plan-manage__btn plan-manage__btn-see">See features</div>
+                        </div>
+                    </div>
+                    <div class="plan-manage__image">
+                        <img src="img/illustration.png" alt="">
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="main__customer-help customer-help">
+                <div class="customer-help__container">
+                    <h6 class="customer-help__upper-text ">Customer help</h6>
+                    <h1 class="customer-help__upper-title">Frequently asked questions</h1>
+
+                    <div class="customer-help__accordion accordion">
+
+                        <div class="accordion__content-box">
+                            <div class="accordion__upper-content">
+                                <img src="img/arrow-down.svg" alt="">
+                                <h2 class="accordion_subtitle">Reque insolens in vel?</h2>
+                            </div>
+                            <div class="accordion__down-content">
+                                <p class="accordion__text">Quidam vocibus eum ne, erat consectetuer voluptatibus ut nam. Eu usu vidit tractatos, vero tractatos ius an, in mel diceret persecuti.</p>
+                                <button class="accordion__btn">Go to documentation</button>
+                            </div>
+                        </div>
+
+                        <div class="accordion__content-box">
+                            <div class="accordion__upper-content">
+                                <img src="img/arrow-down.svg" alt="">
+                                <h2 class="accordion_subtitle">Vis rebum error graecis ea, id sit postea accusamus?</h2>
+                            </div>
+                            <div class="accordion__down-content">
+                                <p class="accordion__text">Quidam vocibus eum ne, erat consectetuer voluptatibus ut nam. Eu usu vidit tractatos, vero tractatos ius an, in mel diceret persecuti.</p>
+                                <button class="accordion__btn">Go to documentation</button>
+                            </div>
+                        </div>
+
+                        <div class="accordion__content-box">
+                            <div class="accordion__upper-content">
+                                <img src="img/arrow-down.svg" alt="">
+                                <h2 class="accordion_subtitle">Lorem repudiandae ne nec?</h2>
+                            </div>
+                            <div class="accordion__down-content">
+                                <p class="accordion__text">Quidam vocibus eum ne, erat consectetuer voluptatibus ut nam. Eu usu vidit tractatos, vero tractatos ius an, in mel diceret persecuti.</p>
+                                <button class="accordion__btn">Go to documentation</button>
+                            </div>
+                        </div>
+
+                        <div class="accordion__content-box">
+                            <div class="accordion__upper-content">
+                                <img src="img/arrow-down.svg" alt="">
+                                <h2 class="accordion_subtitle">Ad dicit numquam vel. Et eos iudico feugait percipitur?</h2>
+                            </div>
+                            <div class="accordion__down-content">
+                                <p class="accordion__text">Quidam vocibus eum ne, erat consectetuer voluptatibus ut nam. Eu usu vidit tractatos, vero tractatos ius an, in mel diceret persecuti.</p>
+                                <button class="accordion__btn">Go to documentation</button>
+                            </div>
+                        </div>
+
+                        <div class="accordion__content-box">
+                            <div class="accordion__upper-content">
+                                <img src="img/arrow-down.svg" alt="">
+                                <h2 class="accordion_subtitle">Sea no dico percipitur. Fierent constituam definitiones id eum?</h2>
+                            </div>
+                            <div class="accordion__down-content">
+                                <p class="accordion__text">Quidam vocibus eum ne, erat consectetuer voluptatibus ut nam. Eu usu vidit tractatos, vero tractatos ius an, in mel diceret persecuti.</p>
+                                <button class="accordion__btn">Go to documentation</button>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                </div>
+            </section>
+
+        </main>
+
+
+
+    </div>
+</body>
+</html>
